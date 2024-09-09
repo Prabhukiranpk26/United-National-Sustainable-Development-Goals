@@ -35,7 +35,7 @@ To run this project, you'll need to install the following dependencies:
 
 Setup and Installation:
 •	Clone the Repository:
-  git clone [https://github.com/your-username/financing-2030-agenda.git](https://github.com/Prabhukiranpk26/United-National-Sustainable-Development-Goals.git)
+  git clone https://github.com/Prabhukiranpk26/United-National-Sustainable-Development-Goals.git
   cd financing-2030-agenda
 •	Download the Dataset: The script automatically downloads the dataset from the provided URL. Ensure you have a stable internet connection.
 •	Run the Data Processing Script: Execute the script that downloads, extracts, and processes the dataset: python data_processing.py
