@@ -1,4 +1,4 @@
-**Financing the 2030 Agenda for Sustainable Development - Data Analytics Project**
+**Financing the 2030 Agenda for Sustainable Development - Data Analytics Project- GaiaViz Application**
 
 This repository contains the code and resources for the data analytics engineering project focusing on the "Financing the 2030 Agenda for Sustainable Development" dataset. This project involves downloading, cleaning, transforming, and analyzing data related to the United Nations Sustainable Development Goals (SDGs), with an emphasis on financing aspects of global development.
 
@@ -12,13 +12,18 @@ Table of Contents
 •	Contributing
 
 Project Overview:
-The primary objective of this project is to automate the processing of large-scale datasets related to financing the 2030 Agenda for Sustainable Development. We utilize Python and OpenRefine to clean and transform data, ensuring that large numeric values are formatted for easy readability and analysis. The end goal is to produce insights that can contribute to understanding global financing trends related to the SDGs.
+The primary objective of this project is to automate the processing of the Financing the 2030 Agenda for Sustainable Development dataset and visualising it using GaiaViz Application.  We utilize Python and OpenRefine to clean and transform data, ensuring that large numeric values, donor organisation names etc are formatted for easy readability and analysis. The end goal is to produce insights that can contribute to understanding global financing trends related to the SDGs.
 
 Objectives:
-1.	Automate data extraction and formatting processes.
-2.	Clean and transform numeric values into a standard dollar format with commas.
-3.	Perform exploratory data analysis (EDA) and basic statistical analysis.
+1. Preprocess dataset to as per requirement.
+2. Identify donor and recipient countries and retrieve geolocation data.
+3. Conevrt the data to node and tag files to ensure compatibility with GaiaViz Application.
 4.	Provide insights into financing trends for sustainable development.
+5.	Create dynamic 3D visualizations using the following visual elements:
+   - Nodes (Rods): Represent donor and recipient countries.
+   - Year Rings: Depict time intervals for funding trends.
+   - SDG Petals: Highlight contributions to each SDG with unique colors.
+   - Links: Connect donor SDGs to recipient SDGs, with each link differentiated by the amount donated to the recipient.
    
 Dataset:
 The dataset used in this project is publicly available and can be accessed from the AidData portal:
@@ -47,7 +52,7 @@ Data Exploration: The financing_2030_agenda_analysis.ipynb notebook provides an 
 Analysis: You can extend the analysis by adding your own custom code for more in-depth exploration of financing trends related to the SDGs.
 
 Notebooks:
-•	financing_2030_agenda_analysis.ipynb: Interactive notebook that walks through data loading, cleaning, exploration, and visualization.
+•	Financing_2030_agenda_analysis.ipynb: Interactive notebook that walks through data loading, cleaning, exploration, and visualization.
 Scripts:
 •	data_processing.py: Python script to download, extract, and clean the dataset.
 Features
