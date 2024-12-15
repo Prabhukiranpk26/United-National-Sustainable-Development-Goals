@@ -17,7 +17,7 @@ The primary objective of this project is to automate the processing of the Finan
 Objectives:
 1. Preprocess dataset to as per requirement.
 2. Identify donor and recipient countries and retrieve geolocation data.
-3. Conevrt the data to node and tag files to ensure compatibility with GaiaViz Application.
+3. Convert the data to node and tag files to ensure compatibility with GaiaViz Application.
 4.	Provide insights into financing trends for sustainable development.
 5.	Create dynamic 3D visualizations using the following visual elements:
    - Nodes (Rods): Represent donor and recipient countries.
